@@ -1,0 +1,247 @@
+body{
+    margin:auto;
+    background-color:#fbe2c6
+}
+a{
+    text-decoration: none;
+}
+/* header and search section */
+header{
+    height:50px;
+    /* border:5px solid pink; */
+    background-color: #0F1111;
+}
+#brand{
+    color: #fff;
+}
+
+.sociallogo{
+
+    height: 50px;
+    float: left;
+}
+
+.location{
+    height: 45px;
+    /* border: 2px solid white; */
+    width: 10%;
+    float: left;
+   
+    
+}
+.city{
+   
+    height: 45px;
+    width: 70%;
+    font-size: large; 
+    background-color: #0F1111;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 5%;
+    border: none;
+}
+
+#search{
+        float:right;
+        margin-right: 500px;
+        margin-top: 7px;
+        text-align: center;
+      font-size: larger;
+}
+.searchpanel{
+    height: 30px;
+    width: 500px;
+    border-style: double;
+   
+}
+.submit{
+    height: 30px;
+    font-size: 15px;
+    border: none;
+    background-color: #0F1111;
+    color:#fff;
+    font-weight: bold;
+}
+.sign{
+    height:45px;
+    width:15%;
+    /* border: 2px dotted white; */
+    margin-left: 85%;
+    float: left;
+    margin-top: -3.3%;
+}
+.signed{
+    height: 30px;
+    width: 40%;
+    font-size: 20px;
+    margin-top: 5%;
+    background-color: #0F1111;
+    border: none;
+    color: #fff;
+}
+
+     
+  /*2nd section  */
+#body1{ height:30px;
+ /* border:5px solid rgb(146, 179, 12); */
+    background-color: rgb(0, 24, 49);
+ }
+ .body10{
+    height: 30px;
+    width: 9%;
+    border: 2px solid white;
+    float: left;
+   margin-top: .3%;
+    color: white;
+    text-align: center;
+ }
+ .body10 >a{
+    color: white;
+    font-size: 18px;
+    
+   
+ }
+
+.body2{
+    /* height:700px; */
+    border:5px solid rgb(44, 25, 165);
+    background-image:url("background1.jpg");
+    background-repeat:no-repeat;
+    background-size:100% 700px;
+   
+   
+}
+.container{
+    /* height: 500px; */
+    /* width: 95%; */
+    border:5px solid red;
+    margin-top: 17%;
+    display:flex;
+    flex-wrap: wrap;
+
+    /* margin-left: 2%; */
+    
+   
+
+}
+.containers{
+    height: 400px;
+    width: 22%;
+    /* border: 2px solid black; */
+    box-shadow: 0px 5px 40px #7a5f5f;
+ 
+    margin-top: 2%;
+    margin-left: 2.3%;
+    background-color: #fff;
+    
+}
+/* 1st box */
+.container1{
+   
+    font-size: 150%;
+    font-weight: bold;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.container2{
+ 
+ margin-top: 5%;
+ margin-left: 5%;
+}
+.container2 >img{
+    height:240px;
+    width: 95%;
+    /* display: inline-block; */
+}
+.container3{
+   
+    margin-top: 5%;
+    margin-left: 5%;
+    line-height: 4;
+}
+.container3 >a{
+    color: #007185; 
+    
+}
+/* 2nd box */
+.containerA{
+    /* float: left; */
+    margin-top: 10%;
+    margin-left: 6%
+}
+.containerA >img{
+    height: 250px;
+    width: 92%;
+}
+/* 3rd box */
+.auto{
+   font-size: 15px;
+   position: absolute;
+   margin-top: 0%;
+   margin-left: -1%;
+   line-height: 1;
+  
+}
+.autotan{  
+  height: 150px;
+  width: 40%;
+  /* border: 3px solid black; */
+  margin-top: 0%;
+  margin-left: 10%;
+  float: left;
+
+}
+.autotune{
+    height: 120px;
+    width: 65%
+}
+.autotone {
+    color: #0F1111;
+}
+.container3A{
+    float: left;
+    margin-left: 4%;
+    line-height: 3;
+  
+}
+.container3A >a{
+    color: #007185;
+}
+
+/* 4th box */
+.containerC{
+    
+    margin-top: 5%;
+    margin-left: 6% 
+    
+   
+}
+.containerC >img{
+    height:255px;
+    width: 94%;
+    
+   
+}
+/* home decor section */
+.homedecor{
+    height: 280px;
+    width: 93.7%;
+    /* border: 3px double black; */
+    margin-left: 2.9%;
+    background-color: #fff;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 20px;
+    font-weight: bold;
+}
+.homedecor >a{
+    color: black;
+}
+.furniture{
+    margin-left: .1%;
+}
+footer{
+    height:90px;
+    border:5px solid rgb(5, 250, 50);
+}
